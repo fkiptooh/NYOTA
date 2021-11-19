@@ -1,7 +1,4 @@
-/**
- * Kazunori Hayashi
-* Version 1.0 29/7/2013
- */
+
 import java.util.*;
 import java.io.*;
 import java.lang.*;

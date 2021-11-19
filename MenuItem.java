@@ -1,8 +1,3 @@
-/**
- * Kazunori Hayashi
-* Version 1.0 29/7/2013
- */
-
 public class MenuItem
 {
     //definition of menu item type

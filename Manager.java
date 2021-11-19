@@ -1,7 +1,4 @@
-/**
- * Kazunori Hayashi
-* Version 1.0 29/7/2013
- */
+
 public class Manager extends Staff
 {
     private static final double MINIMUM_RATE = 100.0;

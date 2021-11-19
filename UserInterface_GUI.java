@@ -78,7 +78,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         this.con = getContentPane();
         
         // Set frame
-        setTitle("Valentino Restaurant Management System");
+        setTitle("NYOTA");
         setBounds(WINDOW_X, WINDOW_Y, WINDOW_WIDTH, WINDOW_HEIGHT);
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -149,7 +149,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
         headPanel = new JPanel();
         headPanel.setBackground(Color.BLACK);
         headPanel.setLayout(new FlowLayout());
-        headTitle = new JLabel("Valentino Restaurant Management System");
+        headTitle = new JLabel("NYOTA");
         headTitle.setForeground(Color.WHITE);
         headTitle.setPreferredSize(new Dimension(500, 30));
         headTitle.setFont(new Font("Arial", Font.BOLD | Font.ITALIC, 24));
@@ -503,7 +503,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnLoginOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnLoginOK.requestFocusInWindow();
-                    if (!btnLoginOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnLoginOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -925,7 +925,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnOK.requestFocusInWindow();
-                    if (!btnOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -1264,7 +1264,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnOK.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnOK.requestFocusInWindow();
-                    if (!btnOK.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnOK.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
@@ -1825,7 +1825,7 @@ public class UserInterface_GUI extends JFrame implements ActionListener
                 if (btnAddItem.getVerifyInputWhenFocusTarget()) {
                     //Try to get focus
                     btnAddItem.requestFocusInWindow();
-                    if (!btnAddItem.hasFocus()) {    //Can not get focus ?Ë the compornent have not been verified
+                    if (!btnAddItem.hasFocus()) {    //Can not get focus ?ï¿½ the compornent have not been verified
                         return;
                     }
                 }  
